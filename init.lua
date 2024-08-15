@@ -649,7 +649,7 @@ require('lazy').setup({
     opts = {
       notify_on_error = false,
       format_on_save = {
-        -- Enable format on save
+        -- Enable format on save for all file types
         timeout_ms = 500,
         lsp_fallback = true,
       },
